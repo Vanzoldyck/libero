@@ -1,0 +1,807 @@
+/* line 2, ../sass/screen.scss */
+body {
+  font-family: "Century Gothic";
+  margin: 0;
+}
+/* line 6, ../sass/screen.scss */
+body .container {
+  width: 1410px;
+  margin: auto;
+}
+@media screen and (max-width: 1200px) {
+  /* line 6, ../sass/screen.scss */
+  body .container {
+    width: 90%;
+  }
+}
+/* line 14, ../sass/screen.scss */
+body #main-con {
+  margin: auto;
+}
+/* line 4, ../sass/_header.scss */
+body header {
+  background-color: #0a233d;
+}
+/* line 7, ../sass/_header.scss */
+body header #top-container {
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+  color: white;
+}
+/* line 16, ../sass/_header.scss */
+body header #top-container #logo-con {
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+  width: 30%;
+}
+/* line 22, ../sass/_header.scss */
+body header #top-container #logo-con #logo {
+  margin-bottom: 50px;
+}
+/* line 26, ../sass/_header.scss */
+body header #top-container #logo-con #logo #left-logo {
+  display: inline-block;
+  margin-right: 10%;
+  margin-top: 30px;
+}
+/* line 32, ../sass/_header.scss */
+body header #top-container #logo-con #logo #left-logo div {
+  background-color: white;
+  height: 8px;
+  margin-top: 8px;
+  width: 70px;
+}
+/* line 41, ../sass/_header.scss */
+body header #top-container #logo-con #logo img {
+  width: 250px;
+}
+/* line 48, ../sass/_header.scss */
+body header #top-container #links {
+  display: inline-block;
+  width: 45%;
+}
+/* line 53, ../sass/_header.scss */
+body header #top-container #links ul {
+  list-style-type: none;
+}
+/* line 57, ../sass/_header.scss */
+body header #top-container #links li {
+  float: left;
+}
+/* line 61, ../sass/_header.scss */
+body header #top-container #links li a {
+  text-decoration: none;
+  margin: 19px;
+  letter-spacing: 2px;
+  font-size: 30px;
+  color: white;
+}
+/* line 67, ../sass/_header.scss */
+body header #top-container #links li a:hover {
+  color: red;
+}
+/* line 76, ../sass/_header.scss */
+body header #top-container #search-bar {
+  display: inline-block;
+  width: 20%;
+  padding-left: 15%;
+  box-sizing: border-box;
+}
+/* line 7, ../sass/_section-con.scss */
+body #section-con #section-subCon {
+  margin-bottom: 3%;
+}
+/* line 11, ../sass/_section-con.scss */
+body #section-con #section-subCon #left-section {
+  display: inline-block;
+  width: 75%;
+  margin-left: 3%;
+  vertical-align: top;
+  border-right: 1px solid black;
+  margin-top: 40px;
+  height: 650px;
+}
+/* line 21, ../sass/_section-con.scss */
+body #section-con #section-subCon #left-section #p {
+  font-size: 50px;
+  vertical-align: top;
+  margin-top: 20px;
+}
+/* line 26, ../sass/_section-con.scss */
+body #section-con #section-subCon #left-section #left-con {
+  margin-left: 3%;
+  margin-top: 25px;
+}
+/* line 32, ../sass/_section-con.scss */
+body #section-con #section-subCon #left-section #left-con #first-con #postcode-con {
+  font-size: 25px;
+  color: #3f3f3f;
+  background-color: transparent;
+}
+/* line 37, ../sass/_section-con.scss */
+body #section-con #section-subCon #left-section #left-con #first-con #postcode-con label {
+  display: block;
+}
+/* line 40, ../sass/_section-con.scss */
+body #section-con #section-subCon #left-section #left-con #first-con #postcode-con input {
+  border: 3px solid #4077f2;
+  border-radius: 25px;
+  font-size: 25px;
+  height: 35px;
+  padding: 3px;
+  outline: none;
+  width: 170px;
+}
+/* line 49, ../sass/_section-con.scss */
+body #section-con #section-subCon #left-section #left-con #second-con {
+  width: 75%;
+  margin-top: 20px;
+}
+/* line 53, ../sass/_section-con.scss */
+body #section-con #section-subCon #left-section #left-con #second-con #p2 {
+  font-size: 25px;
+  color: #3f3f3f;
+}
+/* line 58, ../sass/_section-con.scss */
+body #section-con #section-subCon #left-section #left-con #second-con #radio-btn {
+  margin-top: 20px;
+}
+/* line 61, ../sass/_section-con.scss */
+body #section-con #section-subCon #left-section #left-con #second-con #radio-btn label {
+  cursor: pointer;
+}
+/* line 64, ../sass/_section-con.scss */
+body #section-con #section-subCon #left-section #left-con #second-con #radio-btn #yes-radio {
+  vertical-align: top;
+  display: inline-block;
+}
+/* line 67, ../sass/_section-con.scss */
+body #section-con #section-subCon #left-section #left-con #second-con #radio-btn #yes-radio #yes {
+  display: none;
+}
+/* line 71, ../sass/_section-con.scss */
+body #section-con #section-subCon #left-section #left-con #second-con #radio-btn #yes-radio .radio-con {
+  border-radius: 25px;
+  height: 40px;
+  width: 100px;
+  border: 3px solid #4077f2;
+  padding: 2px;
+}
+/* line 74, ../sass/_section-con.scss */
+body #section-con #section-subCon #left-section #left-con #second-con #radio-btn #yes-radio .radio-con .outer-btn {
+  background-color: white;
+  border: 2px solid #4077f2;
+  border-radius: 14px;
+  display: inline-block;
+  height: 22px;
+  width: 22px;
+  margin-top: 6px;
+  margin-left: 5px;
+}
+/* line 77, ../sass/_section-con.scss */
+body #section-con #section-subCon #left-section #left-con #second-con #radio-btn #yes-radio .radio-con .outer-btn .inner-btn {
+  background-color: #4077f2;
+  border: 2.5px solid white;
+  border-radius: 10px;
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  margin-top: 1px;
+  margin-left: 1px;
+}
+/* line 82, ../sass/_section-con.scss */
+body #section-con #section-subCon #left-section #left-con #second-con #radio-btn #yes-radio .radio-con .label {
+  display: inline-block;
+  font-size: 25px;
+  font-weight: bold;
+  color: #4077f2;
+  margin-left: 10%;
+}
+/* line 88, ../sass/_section-con.scss */
+body #section-con #section-subCon #left-section #left-con #second-con #radio-btn #no-radio {
+  display: inline-block;
+  margin-left: 2%;
+}
+/* line 92, ../sass/_section-con.scss */
+body #section-con #section-subCon #left-section #left-con #second-con #radio-btn #no-radio #no {
+  display: none;
+}
+/* line 96, ../sass/_section-con.scss */
+body #section-con #section-subCon #left-section #left-con #second-con #radio-btn #no-radio .radio-con {
+  border-radius: 25px;
+  height: 40px;
+  width: 100px;
+  border: 3px solid #4077f2;
+  padding: 2px;
+}
+/* line 99, ../sass/_section-con.scss */
+body #section-con #section-subCon #left-section #left-con #second-con #radio-btn #no-radio .radio-con .outer-btn {
+  background-color: white;
+  border: 2px solid #4077f2;
+  border-radius: 14px;
+  display: inline-block;
+  height: 22px;
+  width: 22px;
+  margin-top: 6px;
+  margin-left: 5px;
+}
+/* line 102, ../sass/_section-con.scss */
+body #section-con #section-subCon #left-section #left-con #second-con #radio-btn #no-radio .radio-con .outer-btn .inner-btn {
+  background-color: #4077f2;
+  border: 2.5px solid white;
+  border-radius: 10px;
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  margin-top: 1px;
+  margin-left: 1px;
+}
+/* line 107, ../sass/_section-con.scss */
+body #section-con #section-subCon #left-section #left-con #second-con #radio-btn #no-radio .radio-con .label {
+  display: inline-block;
+  font-size: 25px;
+  font-weight: bold;
+  color: #4077f2;
+  margin-left: 10%;
+}
+/* line 116, ../sass/_section-con.scss */
+body #section-con #section-subCon #left-section #left-con #third-con {
+  margin-top: 20px;
+}
+/* line 119, ../sass/_section-con.scss */
+body #section-con #section-subCon #left-section #left-con #third-con #email-con {
+  font-size: 25px;
+  color: #3f3f3f;
+}
+/* line 123, ../sass/_section-con.scss */
+body #section-con #section-subCon #left-section #left-con #third-con #email-con label {
+  display: block;
+}
+/* line 126, ../sass/_section-con.scss */
+body #section-con #section-subCon #left-section #left-con #third-con #email-con input {
+  border: 3px solid #4077f2;
+  border-radius: 25px;
+  font-size: 25px;
+  height: 35px;
+  padding: 3px;
+  outline: none;
+  width: 350px;
+}
+/* line 133, ../sass/_section-con.scss */
+body #section-con #section-subCon #left-section #left-con #fourth-con {
+  margin-top: 20px;
+}
+/* line 136, ../sass/_section-con.scss */
+body #section-con #section-subCon #left-section #left-con #fourth-con #mobile-no-con {
+  font-size: 25px;
+  color: #3f3f3f;
+}
+/* line 140, ../sass/_section-con.scss */
+body #section-con #section-subCon #left-section #left-con #fourth-con #mobile-no-con label {
+  display: block;
+}
+/* line 143, ../sass/_section-con.scss */
+body #section-con #section-subCon #left-section #left-con #fourth-con #mobile-no-con input {
+  border: 3px solid #4077f2;
+  border-radius: 25px;
+  font-size: 25px;
+  height: 35px;
+  padding: 3px;
+  outline: none;
+  width: 350px;
+}
+/* line 151, ../sass/_section-con.scss */
+body #section-con #section-subCon #left-section #left-con #fifth-con input {
+  cursor: pointer;
+  background-color: #0a233d;
+  border: 3px solid #0a233d;
+  border-radius: 30px;
+  color: white;
+  float: right;
+  height: 55px;
+  margin-top: 30px;
+  margin-right: 10%;
+  width: 200px;
+  font-size: 30px;
+  outline: none;
+}
+/* line 170, ../sass/_section-con.scss */
+body #section-con #section-subCon #right-section {
+  display: inline-block;
+  padding-left: 20px;
+  width: 19%;
+  margin-top: 5%;
+}
+/* line 177, ../sass/_section-con.scss */
+body #section-con #section-subCon #right-section #p1 {
+  font-size: 30px;
+}
+/* line 181, ../sass/_section-con.scss */
+body #section-con #section-subCon #right-section #first-art {
+  margin-top: 20px;
+}
+/* line 184, ../sass/_section-con.scss */
+body #section-con #section-subCon #right-section #first-art #first-border {
+  background-color: #4077f2;
+  height: 12px;
+}
+/* line 190, ../sass/_section-con.scss */
+body #section-con #section-subCon #right-section #first-art .image-con {
+  margin-top: 10px;
+  position: relative;
+}
+/* line 193, ../sass/_section-con.scss */
+body #section-con #section-subCon #right-section #first-art .image-con .nav-pic {
+  width: 100%;
+  height: auto;
+}
+/* line 198, ../sass/_section-con.scss */
+body #section-con #section-subCon #right-section #first-art .image-con .background {
+  background-color: rgba(105, 105, 105, 0.61);
+  position: absolute;
+  bottom: 6px;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: grid;
+  align-items: center;
+  color: white;
+}
+/* line 201, ../sass/_section-con.scss */
+body #section-con #section-subCon #right-section #first-art .image-con .background #art-text1 {
+  font-size: 30px;
+  text-align: center;
+  font-family: Calibri !important;
+  letter-spacing: 0px;
+}
+/* line 205, ../sass/_section-con.scss */
+body #section-con #section-subCon #right-section #first-art .image-con .background .link-rm {
+  z-index: 2;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  background-color: #445d94;
+  padding: 5px 10px;
+}
+/* line 208, ../sass/_section-con.scss */
+body #section-con #section-subCon #right-section #first-art .image-con .background .link-rm a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+/* line 216, ../sass/_section-con.scss */
+body #section-con #section-subCon #right-section #first-art #first-context {
+  font-size: 21px;
+  margin-top: 5px;
+  letter-spacing: 1px;
+}
+/* line 221, ../sass/_section-con.scss */
+body #section-con #section-subCon #right-section #second-art {
+  margin-top: 10px;
+}
+/* line 224, ../sass/_section-con.scss */
+body #section-con #section-subCon #right-section #second-art #second-border {
+  background-color: #4077f2;
+  height: 12px;
+}
+/* line 229, ../sass/_section-con.scss */
+body #section-con #section-subCon #right-section #second-art .image-con {
+  margin-top: 10px;
+  position: relative;
+}
+/* line 233, ../sass/_section-con.scss */
+body #section-con #section-subCon #right-section #second-art .image-con .nav-pic {
+  width: 100%;
+  height: auto;
+}
+/* line 238, ../sass/_section-con.scss */
+body #section-con #section-subCon #right-section #second-art .image-con .background {
+  background-color: rgba(105, 105, 105, 0.61);
+  position: absolute;
+  bottom: 6px;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: grid;
+  align-items: center;
+  color: white;
+  bottom: 5px !important;
+}
+/* line 243, ../sass/_section-con.scss */
+body #section-con #section-subCon #right-section #second-art .image-con .background #art-text2 {
+  font-size: 30px;
+  text-align: center;
+  font-family: Calibri !important;
+  letter-spacing: 0px;
+}
+/* line 247, ../sass/_section-con.scss */
+body #section-con #section-subCon #right-section #second-art .image-con .background .link-rm {
+  z-index: 2;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  background-color: #445d94;
+  padding: 5px 10px;
+}
+/* line 250, ../sass/_section-con.scss */
+body #section-con #section-subCon #right-section #second-art .image-con .background .link-rm a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+/* line 258, ../sass/_section-con.scss */
+body #section-con #section-subCon #right-section #second-art #second-context {
+  font-size: 21px;
+  margin-top: 5px;
+  letter-spacing: 1px;
+}
+/* line 6, ../sass/_footer.scss */
+body #bottom-footer #footer-con {
+  font-size: 21px;
+}
+/* line 9, ../sass/_footer.scss */
+body #bottom-footer #footer-con #first-list {
+  vertical-align: top;
+  display: inline-block;
+  margin-left: 5%;
+}
+/* line 13, ../sass/_footer.scss */
+body #bottom-footer #footer-con #first-list .list-style {
+  text-align: left;
+  list-style-type: none;
+}
+/* line 16, ../sass/_footer.scss */
+body #bottom-footer #footer-con #first-list .list-style a {
+  text-decoration: none;
+  color: #0a233d;
+}
+/* line 24, ../sass/_footer.scss */
+body #bottom-footer #footer-con #second-list {
+  vertical-align: top;
+  display: inline-block;
+  margin-left: 7%;
+}
+/* line 28, ../sass/_footer.scss */
+body #bottom-footer #footer-con #second-list .list-style {
+  text-align: left;
+  list-style-type: none;
+}
+/* line 31, ../sass/_footer.scss */
+body #bottom-footer #footer-con #second-list .list-style a {
+  text-decoration: none;
+  color: #0a233d;
+}
+/* line 39, ../sass/_footer.scss */
+body #bottom-footer #footer-con #third-list {
+  vertical-align: top;
+  display: inline-block;
+  margin-left: 7%;
+}
+/* line 43, ../sass/_footer.scss */
+body #bottom-footer #footer-con #third-list .list-style {
+  text-align: left;
+  list-style-type: none;
+}
+/* line 46, ../sass/_footer.scss */
+body #bottom-footer #footer-con #third-list .list-style a {
+  text-decoration: none;
+  color: #0a233d;
+}
+/* line 53, ../sass/_footer.scss */
+body #bottom-footer #footer-con #fourth-list {
+  vertical-align: top;
+  display: inline-block;
+  margin-left: 7%;
+}
+/* line 57, ../sass/_footer.scss */
+body #bottom-footer #footer-con #fourth-list .list-style {
+  text-align: left;
+  list-style-type: none;
+}
+/* line 60, ../sass/_footer.scss */
+body #bottom-footer #footer-con #fourth-list .list-style a {
+  text-decoration: none;
+  color: #0a233d;
+}
+/* line 66, ../sass/_footer.scss */
+body #bottom-footer #footer-con #fifth-list {
+  margin-left: 5%;
+  display: inline-block;
+  margin-top: 10px;
+}
+/* line 72, ../sass/_footer.scss */
+body #bottom-footer #footer-con #fifth-list #circle {
+  display: inline-block;
+}
+/* line 76, ../sass/_footer.scss */
+body #bottom-footer #footer-con #fifth-list #circle .styled-circle {
+  background-color: #4077f2;
+  border-radius: 70px;
+  height: 35px;
+  width: 35px;
+  margin-top: 10px;
+}
+/* line 85, ../sass/_footer.scss */
+body #bottom-footer #footer-con #fifth-list #paragraph {
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 89, ../sass/_footer.scss */
+body #bottom-footer #footer-con #fifth-list #paragraph div {
+  margin-top: 16px;
+}
+/* line 92, ../sass/_footer.scss */
+body #bottom-footer #footer-con #fifth-list #paragraph div a {
+  text-decoration: none;
+  color: black;
+}
+/* line 6, ../sass/_checked-radio.scss */
+body #radio-btn label input:checked + .radio-con {
+  border-radius: 25px;
+  height: 40px;
+  width: 100px;
+  background-color: #4077f2;
+  border: 3px solid #4077f2;
+  padding: 2px;
+}
+/* line 14, ../sass/_checked-radio.scss */
+body #radio-btn label input:checked + .radio-con .outer-btn {
+  background-color: white;
+  display: inline-block;
+  margin-top: 7px;
+  margin-left: 5px;
+  border: 1.75px solid #4077f2 !important;
+  border-radius: 15px !important;
+  height: 24px !important;
+  width: 24px !important;
+}
+/* line 24, ../sass/_checked-radio.scss */
+body #radio-btn label input:checked + .radio-con .outer-btn .inner-btn {
+  background-color: white !important;
+  border: 2.5px solid #4077f2 !important;
+  border-radius: 9px !important;
+  height: 13px !important;
+  width: 13px !important;
+  margin-top: 3px !important;
+  margin-left: 3px !important;
+}
+/* line 36, ../sass/_checked-radio.scss */
+body #radio-btn label input:checked + .radio-con .label {
+  display: inline-block;
+  font-size: 25px;
+  font-weight: bold;
+  color: white !important;
+  margin-left: 10%;
+}
+@media only screen and (max-width: 1560px) {
+  /* line 5, ../sass/_media.scss */
+  body #p1 {
+    font-size: 29px !important;
+  }
+}
+@media only screen and (max-width: 1545px) {
+  /* line 14, ../sass/_media.scss */
+  body #left-section {
+    height: 650px !important;
+  }
+  /* line 20, ../sass/_media.scss */
+  body #section-subCon {
+    /* margin: 0 8% 2% 5% !important;*/
+  }
+}
+@media only screen and (max-width: 1505px) {
+  /* line 35, ../sass/_media.scss */
+  body #left-section {
+    width: 73% !important;
+  }
+  /* line 39, ../sass/_media.scss */
+  body #second-con {
+    width: 80% !important;
+  }
+  /* line 43, ../sass/_media.scss */
+  body #right-section {
+    width: 19% !important;
+  }
+}
+@media only screen and (max-width: 1432px) {
+  /* line 50, ../sass/_media.scss */
+  body #links {
+    margin-top: 13px !important;
+    vertical-align: top !important;
+    width: 50% !important;
+  }
+  /* line 55, ../sass/_media.scss */
+  body #search-bar {
+    width: 15% !important;
+    padding-left: 10% !important;
+  }
+  /* line 60, ../sass/_media.scss */
+  body #left-section {
+    width: 70% !important;
+  }
+  /* line 66, ../sass/_media.scss */
+  body #first-context {
+    font-size: 19px !important;
+  }
+}
+@media only screen and (max-width: 1402px) {
+  /* line 74, ../sass/_media.scss */
+  body #p1 {
+    font-size: 28px !important;
+  }
+}
+@media only screen and (max-width: 1397px) {
+  /* line 83, ../sass/_media.scss */
+  body #left-section {
+    height: 650px !important;
+  }
+}
+@media only screen and (max-width: 1358px) {
+  /* line 90, ../sass/_media.scss */
+  body #p1 {
+    font-size: 29px !important;
+  }
+  /* line 95, ../sass/_media.scss */
+  body #left-section {
+    width: 66% !important;
+    height: 720px !important;
+  }
+  /* line 100, ../sass/_media.scss */
+  body #p {
+    padding-right: 20% !important;
+  }
+  /* line 104, ../sass/_media.scss */
+  body #right-section {
+    width: 19% !important;
+  }
+}
+@media only screen and (max-width: 1328px) {
+  /* line 112, ../sass/_media.scss */
+  body #second-con {
+    width: 85% !important;
+  }
+  /* line 116, ../sass/_media.scss */
+  body #left-section {
+    width: 64% !important;
+  }
+}
+@media only screen and (max-width: 1290px) {
+  /* line 122, ../sass/_media.scss */
+  body #top-container {
+    text-align: left !important;
+    padding-left: 5% !important;
+  }
+  /* line 126, ../sass/_media.scss */
+  body #logo-con {
+    width: 50% !important;
+  }
+  /* line 130, ../sass/_media.scss */
+  body #left-logo {
+    margin-right: 5% !important;
+  }
+  /* line 134, ../sass/_media.scss */
+  body #links {
+    display: none !important;
+  }
+  /* line 138, ../sass/_media.scss */
+  body #search-bar {
+    width: 49% !important;
+    padding-left: 30% !important;
+  }
+  /* line 143, ../sass/_media.scss */
+  body #left-section {
+    width: 62% !important;
+  }
+}
+@media only screen and (max-width: 1260px) {
+  /* line 152, ../sass/_media.scss */
+  body #footer-con {
+    margin: 0 !important;
+  }
+  /* line 156, ../sass/_media.scss */
+  body #left-section {
+    width: 59% !important;
+    height: 750px !important;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  /* line 166, ../sass/_media.scss */
+  body #left-section {
+    width: 80% !important;
+    display: block !important;
+  }
+  /* line 171, ../sass/_media.scss */
+  body #right-section {
+    display: block !important;
+    width: 40% !important;
+    margin-bottom: 5% !important;
+  }
+  /* line 178, ../sass/_media.scss */
+  body #p1 {
+    font-size: 45px !important;
+  }
+  /* line 182, ../sass/_media.scss */
+  body #art-text1 {
+    font-size: 45px !important;
+  }
+  /* line 186, ../sass/_media.scss */
+  body .link-rm {
+    padding: 7px 20px !important;
+  }
+  /* line 190, ../sass/_media.scss */
+  body .link {
+    font-size: 17px !important;
+  }
+  /* line 194, ../sass/_media.scss */
+  body #first-context {
+    font-size: 32px !important;
+  }
+  /* line 198, ../sass/_media.scss */
+  body #second-context {
+    font-size: 32px !important;
+  }
+  /* line 202, ../sass/_media.scss */
+  body #art-text2 {
+    font-size: 45px !important;
+  }
+  /* line 206, ../sass/_media.scss */
+  body .list-con {
+    margin-left: 4% !important;
+  }
+}
+@media only screen and (max-width: 1145px) {
+  /* line 213, ../sass/_media.scss */
+  body .list-con {
+    display: block !important;
+  }
+}
+@media only screen and (max-width: 1135px) {
+  /* line 221, ../sass/_media.scss */
+  body #left-section {
+    display: block !important;
+    width: 90% !important;
+  }
+  /* line 226, ../sass/_media.scss */
+  body #right-section {
+    display: block !important;
+    width: 42% !important;
+    margin-bottom: 8% !important;
+  }
+  /* line 232, ../sass/_media.scss */
+  body #first-image {
+    height: 230px !important;
+  }
+  /* line 236, ../sass/_media.scss */
+  body #background {
+    height: 238px !important;
+  }
+  /* line 240, ../sass/_media.scss */
+  body #art-text1 {
+    top: 42px !important;
+    font-size: 40px !important;
+  }
+  /* line 245, ../sass/_media.scss */
+  body .link-rm {
+    padding: 7px 20px !important;
+  }
+  /* line 249, ../sass/_media.scss */
+  body .link {
+    font-size: 17px !important;
+  }
+  /* line 253, ../sass/_media.scss */
+  body #second-image {
+    height: 245px !important;
+  }
+  /* line 257, ../sass/_media.scss */
+  body #background2 {
+    height: 258px !important;
+  }
+  /* line 261, ../sass/_media.scss */
+  body #art-text2 {
+    top: 42px !important;
+    font-size: 41px !important;
+    text-align: center !important;
+  }
+}
