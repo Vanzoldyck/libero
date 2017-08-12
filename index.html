@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <title>Libero</title>
     <link href="assets/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-    <script src="../Nostrum/CITE_grp01/assets/js/function.js"></script>
-
+    <script src="assets/jqueryUI/jquery-3.2.0.min.js"></script>
+    <script src="assets/jqueryUI/jquery-ui.min.js"></script>
+    <script src="../Nostrum complete/.idea/CITE_grp01/assets/js/function.js"></script>
 
 </head>
 <body>
@@ -26,10 +27,10 @@
                     </div>
                     <div id="links">
                         <ul>
-                            <li><a href="#">HOME</a></li>
-                            <li><a href="#">NEWS</a></li>
-                            <li><a href="#">EVENTS</a></li>
-                            <li><a href="#">WORLD</a></li>
+                            <li class="link-menu"><a href="#">HOME</a></li>
+                            <li class="link-menu"><a href="#">NEWS</a></li>
+                            <li class="link-menu"><a href="#">EVENTS</a></li>
+                            <li class="link-menu"><a href="#">WORLD</a></li>
                         </ul>
                     </div>
                     <div id="search-bar">
@@ -40,7 +41,7 @@
         </header>
         <div id="section-con">
             <div id="section-subCon" class="container">
-                <section id="left-section">
+                <form id="left-section">
                     <div id="p">How do you feel about recycling?</div>
                     <div id="left-con">
                         <div id="first-con">
@@ -61,7 +62,7 @@
                                         <div class="outer-btn">
                                             <div class="inner-btn"></div>
                                         </div>
-                                        <label for="yes" class="label">Yes</label>
+                                        <label for="yes" class="label"> Yes</label>
                                     </div>
                                 </label>
                                 <label id="no-radio" for="no">
@@ -70,7 +71,7 @@
                                         <div class="outer-btn" >
                                             <div class="inner-btn" ></div>
                                         </div>
-                                        <label for="no" class="label">No</label>
+                                        <label for="no" class="label"> No</label>
                                     </div>
                                 </label>
                             </div>
@@ -88,10 +89,10 @@
                             </div>
                         </div>
                         <div id="fifth-con">
-                            <input type="button" value="Submit">
+                            <input id="btnSubmit" type="submit" value="Submit">
                         </div>
                     </div>
-                </section>
+                </form>
                 <section id="right-section">
                     <div id="p1">Phasellus augue sapien</div>
                     <article id="first-art">
@@ -191,5 +192,7 @@
             </div>
         </footer>
     </div>
+
+    <script src="assets/js/index.js"></script>
 </body>
 </html>
