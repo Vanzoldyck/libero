@@ -818,6 +818,7 @@ body #radio-btn label input:checked + .radio-con .label {
     text-align: center !important;
   }
 }
+<<<<<<< HEAD
 @media only screen and (max-width: 1100px) {
   /* line 285, ../sass/_media.scss */
   body #right-section {
@@ -980,10 +981,15 @@ body #radio-btn label input:checked + .radio-con .label {
 }
 @media only screen and (max-width: 320px) {
   /* line 452, ../sass/_media.scss */
+=======
+@media only screen and (max-width: 320px) {
+  /* line 284, ../sass/_media.scss */
+>>>>>>> 6a82e7347bfe48d74ecfce1e6a1fca88af35326d
   body .container {
     margin: 0 !important;
     width: 100% !important;
   }
+<<<<<<< HEAD
   /* line 457, ../sass/_media.scss */
   body #top-container {
     padding: 0 0 0 10px !important;
@@ -1001,11 +1007,27 @@ body #radio-btn label input:checked + .radio-con .label {
     width: 50px !important;
   }
   /* line 473, ../sass/_media.scss */
+=======
+  /* line 289, ../sass/_media.scss */
+  body #top-container {
+    padding: 0 0 0 10px !important;
+  }
+  /* line 293, ../sass/_media.scss */
+  body #logo-con {
+    width: 100% !important;
+  }
+  /* line 297, ../sass/_media.scss */
+  body #left-logo div {
+    width: 50px !important;
+  }
+  /* line 301, ../sass/_media.scss */
+>>>>>>> 6a82e7347bfe48d74ecfce1e6a1fca88af35326d
   body #logo img {
     width: 191px !important;
     vertical-align: top !important;
     margin-top: 40px !important;
   }
+<<<<<<< HEAD
   /* line 479, ../sass/_media.scss */
   body #links {
     display: inline-block !important;
@@ -1032,11 +1054,27 @@ body #radio-btn label input:checked + .radio-con .label {
     width: 240px !important;
   }
   /* line 504, ../sass/_media.scss */
+=======
+  /* line 307, ../sass/_media.scss */
+  body #left-section {
+    height: 1000px !important;
+  }
+  /* line 311, ../sass/_media.scss */
+  body #second-con {
+    width: 90% !important;
+  }
+  /* line 315, ../sass/_media.scss */
+  body #email-con input, body #mobile-no-con input {
+    width: 240px !important;
+  }
+  /* line 319, ../sass/_media.scss */
+>>>>>>> 6a82e7347bfe48d74ecfce1e6a1fca88af35326d
   body #right-section {
     margin-left: 3% !important;
     padding: 0 !important;
     width: 95% !important;
   }
+<<<<<<< HEAD
   /* line 510, ../sass/_media.scss */
   body #p1 {
     font-size: 40px !important;
@@ -1054,10 +1092,30 @@ body #radio-btn label input:checked + .radio-con .label {
     font-size: 25px !important;
   }
   /* line 526, ../sass/_media.scss */
+=======
+  /* line 325, ../sass/_media.scss */
+  body #p1 {
+    font-size: 40px !important;
+  }
+  /* line 329, ../sass/_media.scss */
+  body #art-text1, body #art-text2 {
+    font-size: 30px !important;
+  }
+  /* line 333, ../sass/_media.scss */
+  body .link-rm {
+    padding: 5px 10px !important;
+  }
+  /* line 337, ../sass/_media.scss */
+  body #first-context, body #second-context {
+    font-size: 25px !important;
+  }
+  /* line 341, ../sass/_media.scss */
+>>>>>>> 6a82e7347bfe48d74ecfce1e6a1fca88af35326d
   body #footer-con {
     font-size: 21px !important;
     text-align: left !important;
   }
+<<<<<<< HEAD
   /* line 530, ../sass/_media.scss */
   body #footer-con .list-con {
     margin-left: 4% !important;
@@ -1067,6 +1125,17 @@ body #radio-btn label input:checked + .radio-con .label {
     margin-left: 15% !important;
   }
   /* line 536, ../sass/_media.scss */
+=======
+  /* line 345, ../sass/_media.scss */
+  body #footer-con .list-con {
+    margin-left: 4% !important;
+  }
+  /* line 348, ../sass/_media.scss */
+  body #footer-con #fifth-list {
+    margin-left: 15% !important;
+  }
+  /* line 351, ../sass/_media.scss */
+>>>>>>> 6a82e7347bfe48d74ecfce1e6a1fca88af35326d
   body #footer-con #fifth-list .styled-circle {
     margin-top: 30% !important;
   }
